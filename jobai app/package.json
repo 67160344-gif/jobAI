@@ -1,0 +1,15 @@
+{
+  "name": "jobai-backend",
+  "version": "1.0.0",
+  "description": "REST API for JobAI Hub",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mammoth": "^1.13.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
